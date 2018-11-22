@@ -1,0 +1,10 @@
+{
+  "entrypoints": {
+    "posts": {
+      "js": [
+        "/static/js/runtime.js",
+        "/static/js/posts.js"
+      ]
+    }
+  }
+}

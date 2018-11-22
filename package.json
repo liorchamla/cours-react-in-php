@@ -1,0 +1,32 @@
+{
+  "name": "cours-react-in-php",
+  "version": "1.0.0",
+  "description": "Dans ce tutoriel, on voit comment ajouter React à un site existant et même ... vieillissant !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liorchamla/cours-react-in-php.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liorchamla/cours-react-in-php/issues"
+  },
+  "homepage": "https://github.com/liorchamla/cours-react-in-php#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@symfony/webpack-encore": "^0.22.1"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}

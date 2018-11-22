@@ -19,6 +19,8 @@ $articles = App\Generator::getArticles();
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mon site en PHP etc etc.</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
 </head>
 <body>
     <div class="container">
@@ -29,9 +31,12 @@ $articles = App\Generator::getArticles();
                     <h2><?= $article['title'] ?></h2>
                     <p><?= $article['introduction'] ?></p>
                     <a href="article.php" class="btn btn-primary">Lire la suite</a>
+                    <span class="react-like" data-likes="<?= $article['likes'] ?>" data-is-liked="<?= $article['isLiked'] ?>"></span>
                 </div>
             <?php endforeach ?>
         </div>
     </div>
+    <script src="static/js/runtime.js"></script>
+    <script src="static/js/posts.js"></script>
 </body>
 </html>
