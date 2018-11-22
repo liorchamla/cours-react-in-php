@@ -1,0 +1,17 @@
+{
+  "name": "lior/webpack-encore-react",
+  "require": {
+    "fzaninotto/faker": "^1.8"
+  },
+  "authors": [
+    {
+      "name": "Lior Chamla",
+      "email": "lchamla@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "inc/"
+    }
+  }
+}
